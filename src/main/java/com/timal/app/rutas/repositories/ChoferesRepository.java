@@ -82,7 +82,7 @@ public class ChoferesRepository implements IRepository<Chofer> {
                 //operador ternario
                 stmt.setInt(7, chofer.getDisponibilidad() ? 1 : 0);
             }
-            stmt.executeUpdate();
+            stmt.executeUpdate();   
         }
     }
 
