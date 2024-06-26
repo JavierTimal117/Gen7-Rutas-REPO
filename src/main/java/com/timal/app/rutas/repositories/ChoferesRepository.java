@@ -82,13 +82,17 @@ public class ChoferesRepository implements IRepository<Chofer> {
                 //operador ternario
                 stmt.setInt(7, chofer.getDisponibilidad() ? 1 : 0);
             }
-            stmt.executeUpdate();   
+            stmt.executeUpdate();
         }
     }
 
     @Override
     public void eliminar(Long id) throws SQLException {
-
+        String sql = "delete from choferes where id_chofer=?";
+        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+            stmt.setLong(1, id);
+            stmt.executeUpdate();
+        }
     }
 
     //mapear/transformar un renglon/fila/registro/row en un objeto de tipo chofer
