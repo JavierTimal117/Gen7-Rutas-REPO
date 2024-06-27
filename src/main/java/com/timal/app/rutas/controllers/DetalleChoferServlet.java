@@ -21,7 +21,7 @@ public class DetalleChoferServlet extends HttpServlet {
         IService<Chofer> service = new ChoferesService(conn);
         long id;
         try {
-            id = Long.parseLong(req.getParameter("id")); //621
+            id = Long.parseLong(req.getParameter("id")); //333
         } catch (NumberFormatException e){
             id = 0L;
         }

@@ -7,6 +7,10 @@
 Chofer chofer = (Chofer) request.getAttribute("chofer");
 String fecha = chofer.getFechaNacimiento() != null ? chofer.getFechaNacimiento()
 .format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) : "";
+
+
+
+
 Boolean estado = chofer.getDisponibilidad();
 String disponible = estado == true ? "Disponible": "No disponible";
 %>

@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3f3a24d-312d-48df-aa6b-36f1917ac868" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/timal/app/rutas/controllers/EliminarChoferServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/timal/app/rutas/controllers/EdicionCamionServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/timal/app/rutas/controllers/EdicionChoferServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/edicionCamion.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/edicionChofer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/timal/app/rutas/repositories/ChoferesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timal/app/rutas/repositories/ChoferesRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/timal/app/rutas/services/ChoferesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timal/app/rutas/services/ChoferesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timal/app/rutas/controllers/DetalleChoferServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timal/app/rutas/controllers/DetalleChoferServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/detalleChofer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/detalleChofer.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/TRNET-03/Documents/IdeaProjects/Gen7-Rutas2024/src/main/webapp",
+    "last_opened_file_path": "C:/Users/TRNET-03/Documents/IdeaProjects/Gen7-Rutas2024/src/main/java/com/timal/app/rutas/controllers",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -55,8 +58,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\TRNET-03\Documents\IdeaProjects\Gen7-Rutas2024\src\main\webapp" />
       <recent name="C:\Users\TRNET-03\Documents\IdeaProjects\Gen7-Rutas2024\src\main\java\com\timal\app\rutas\controllers" />
+      <recent name="C:\Users\TRNET-03\Documents\IdeaProjects\Gen7-Rutas2024\src\main\webapp" />
       <recent name="C:\Users\TRNET-03\Documents\IdeaProjects\Gen7-Rutas2024\src\main\java\com\timal\app\rutas\services" />
       <recent name="C:\Users\TRNET-03\Documents\IdeaProjects\Gen7-Rutas2024\src\main\java\com\timal\app\rutas\models" />
       <recent name="C:\Users\TRNET-03\Documents\IdeaProjects\Gen7-Rutas2024\src\main\java\com\timal\app\rutas\repositories" />
